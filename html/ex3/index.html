@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="action.php" method="GET">
+            <label>Name: <input type="text" name="name" id="name"></label><br>
+            <label><input type="radio" name="age" id="age_lt18" value="lt18">&lt;18</label><br>
+            <label><input type="radio" name="age" id="age_19_35" value="19_35">19-35</label><br>
+            <label><input type="radio" name="age" id="age_36_48" value="36_48">36-48</label><br>
+            <label><input type="radio" name="age" id="age_gt49" value="gt49">&gt;49</label><br>
+            <label>Profession: <input type="text" id="profession"></label><br>
+            <select name="country">
+                <option value="portugal">Portugal</option>
+                <option value="spain">Spain</option>
+                <option value="germany">Germany</option>
+                <option value="france">France</option>
+                <option value="italy">Italy</option>
+            </select><br>
+            <label><input type="checkbox" name="interest">Sports</label><br>
+            <label><input type="checkbox" name="interest">Politics</label><br>
+            <label><input type="checkbox" name="interest">Travelling</label><br>
+            <label><input type="checkbox" name="interest">Cooking</label><br>
+            <label><input type="checkbox" name="interest">Technology</label><br>
+            <label>Tell us how you found:<br><textarea name="how_they_found_us" id="how_they_found_us" cols="50" rows="10"></textarea></label><br>
+        </form>
+    </body>
+</html>
