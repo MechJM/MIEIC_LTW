@@ -7,23 +7,31 @@
     <body>
         <form action="action.php" method="GET">
             <label>Name: <input type="text" name="name" id="name"></label>
-            <label><input type="radio" name="age" id="age_lt18" value="lt18">&lt;18</label>
-            <label><input type="radio" name="age" id="age_19_35" value="19_35">19-35</label>
-            <label><input type="radio" name="age" id="age_36_48" value="36_48">36-48</label>
-            <label><input type="radio" name="age" id="age_gt49" value="gt49">&gt;49</label>
-            <label>Profession: <input type="text" id="profession"></label>
-            <select name="country">
+            <fieldset>
+                <legend>Age</legend>
+                <label><input type="radio" name="age" id="age_lt18" value="lt18">&lt;18</label>
+                <label><input type="radio" name="age" id="age_19_35" value="19_35">19-35</label>
+                <label><input type="radio" name="age" id="age_36_48" value="36_48">36-48</label>
+                <label><input type="radio" name="age" id="age_gt49" value="gt49">&gt;49</label>
+            </fieldset>
+            <label>Profession: <input type="text" id="profession" name="profession"></label>
+            <label>Country:
+               <select name="country">
                 <option value="portugal">Portugal</option>
                 <option value="spain">Spain</option>
                 <option value="germany">Germany</option>
                 <option value="france">France</option>
                 <option value="italy">Italy</option>
-            </select>
-            <label><input type="checkbox" name="interest">Sports</label>
-            <label><input type="checkbox" name="interest">Politics</label>
-            <label><input type="checkbox" name="interest">Travelling</label>
-            <label><input type="checkbox" name="interest">Cooking</label>
-            <label><input type="checkbox" name="interest">Technology</label>
+            </select> 
+            </label>
+            <fieldset>
+                <legend>Interests</legend>
+                <label><input type="checkbox" name="interest" value="sports">Sports</label>
+                <label><input type="checkbox" name="interest" value="politics">Politics</label>
+                <label><input type="checkbox" name="interest" value="travelling">Travelling</label>
+                <label><input type="checkbox" name="interest" value="cooking">Cooking</label>
+                <label><input type="checkbox" name="interest" value="technology">Technology</label>
+            </fieldset>
             <label>Tell us how you found:<textarea name="how_they_found_us" id="how_they_found_us" cols="50" rows="10"></textarea></label>
         </form>
     </body>
