@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title>Profile</title>
+        <title>User</title>
         <meta charset="UTF-8">
     </head>
     <body>
         <header>
-            <h1>My Profile</h1>
+            <h1>Friends Site</h1>
             <img src="logo.png" alt="Site logo">
             <nav id="menu">
-                <a href="friends.html">Friends</a>
-                <a href="messages">Messages</a>
-                <a href="photos.html">Photos</a>
-                <a href="interests.html">Interests</a>
-                <a href="posts.html">Posts</a>
+                <ul>
+                    <li><a href="friends.html">Friends</a></li>
+                    <li><a href="messages">Messages</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                    <li><a href="interests.html">Interests</a></li>
+                    <li><a href="posts.html">Posts</a></li>
+                </ul>
             </nav>
+            <form action="login.php" method="post">
+                <label>Username:<input type="text" name="username"></label>
+                <label>Password:<input type="password" name="password"></label>
+            </form>
         </header>
-        <section>
+        <aside id="friends">
+            <h2>Friends</h2>
+            <ul>
+                <li>
+                    <a href="friend.php?id=jane">
+                        <img src="photo.php?id=jane" alt="Jane Doe">Jane Doe
+                    </a>
+                </li>
+                <li>
+                    <a href="friend.php?id=louie">
+                        <img src="photo.php?id=louie" alt="Louie Doe">Louie Doe
+                    </a>
+                </li>
+                <li>
+                    <a href="friend.php?id=mary">
+                        <img src="photo.php?id=mary" alt="Mary Doe">Mary Doe
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <section id="personal">
             <h2>Personal Data</h2>
-            <h3>Nome: João Matos</h3>
-            <img src="my_face.png" alt="A picture of my face">
-            <h4>Hi! I'm studying Computer Engineering.</h4>
+            <ul>
+                <li>Name: John Doe</li>
+                <li>Age: 29</li>
+                <li>Country: Portugal</li>
+            </ul>
         </section>
-        <section>
+        <section id="posts">
             <h2>Posts</h2>
-            <section>
+            <article>
                 <h3>Post title 1</h3>
-                <h4>Nr.1 Date: 01/01/1970</h4>
                 <img src="random_landscape.jpeg" alt="A picture of a landscape">
-                This is a sample post.
-            </section>
-            <section>
+                <p>This is a sample post.</p>
+                <footer><a href="comments.php">Comments (54)</a> <span class="date">01/01/1970</span></footer>
+            </article>
+            <article>
                 <h3>Post title 2</h3>
-                <h4>Nr.2 Date: 02/01/1970</h4>
                 <img src="random_landscape.jpeg" alt="A picture of a landscape">
-                This is a sample post.
-            </section>
-            <section>
-                <h3>Post title 3</h3>
-                <h4>Nr.3 Date: 03/01/1970</h4>
-                <img src="random_landscape.jpeg" alt="A picture of a landscape">
-                This is a sample post.
-            </section>
+                <p>This is a sample post.</p>
+                <footer><a href="comments.php">Comments (55)</a> <span class="date">01/01/1970</span></footer>
+            </article>
         </section>
     </body>
 </html>
