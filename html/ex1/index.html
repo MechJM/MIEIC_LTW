@@ -2,34 +2,38 @@
 <html lang="en-US">
     <head>
         <title>Sample title</title>
+        <meta charset="UTF-8">
     </head>
         <body>
             <header>
                 <h1>Sample newspaper title</h1>
                 <h2>Sample newspaper subtitle</h2>
-            <img src="newspaper_logo.png" alt="A sample logo of a newspaper">
+                <img src="newspaper_logo.png" alt="A sample logo of a newspaper">
+                <nav>
+                    <ul>
+                        <li><a href="sports.html">Sport</a></li>
+                        <li><a href="politics.html">Politics</a></li>
+                        <li><a href="obituary.html">Obituary</a></li>
+                        <li><a href="economics.html">Economics</a></li>
+                        <li><a href="puzzles.html">Puzzles</a></li>
+                        <li><a href="weather.html">Weather</a></li>
+                    </ul>
+                </nav>
             </header>
-            <nav>
-                <ul>
-                    <li><a href="sports.html">Sport</a></li>
-                    <li><a href="politics.html">Politics</a></li>
-                    <li><a href="obituary.html">Obituary</a></li>
-                    <li><a href="economics.html">Economics</a></li>
-                    <li><a href="puzzles.html">Puzzles</a></li>
-                    <li><a href="weather.html">Weather</a></li>
-                </ul>
-            </nav>
-            <article>
-                <h3>Sample Title 1</h3>
-                <p>This is a sample introduction for the news item with the tile "Sample Title 1"</p>
-                <img src="article_logo.png" alt="A sample image">
-                <footer>Author: John Doe Date: 01/01/1970</footer>
-            </article>
-            <article>
-                <h3>Sample Title 2</h3>
-                <p>This is a sample introduction for the news item with the tile "Sample Title 2"</p>
-                <img src="article_logo.png" alt="A sample image">
-                <footer>Author: John Doe Date: 01/01/1970</footer>
-            </article>
+            <section id="news">
+                <h2>News</h2>
+                <article>
+                    <h3>Sample Title 1</h3>
+                    <p class="introduction">This is a sample introduction for the news item with the tile "Sample Title 1"</p>
+                    <img src="article_logo.png" alt="A sample image">
+                    <footer><span class="author">John Doe</span> <span>01/01/1970</span></footer>
+                </article>
+                <article>
+                    <h3>Sample Title 2</h3>
+                    <p class="introduction">This is a sample introduction for the news item with the tile "Sample Title 2"</p>
+                    <img src="article_logo.png" alt="A sample image">
+                    <footer><span class="author">John Doe</span> <span>01/01/1970</span></footer>
+                </article>
+            </section>
         </body>
 </html>
