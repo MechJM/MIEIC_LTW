@@ -51,7 +51,6 @@ p
 footer
 {
     background-color: #f4655f;
-    color: #ffffff
 }
 
 .author:before
@@ -62,13 +61,29 @@ footer
 body > footer
 {
     background-color: #2A2F33;
-    
+}
+
+footer *, body > header *
+{
+    color: #ffffff
 }
 
 #menu
 {
     text-align: center;
 }
+
+article > header > h1 > a,article > h1 > a, nav a
+{
+    color: #000000
+}
+
+nav > label,nav > input
+{
+    display: none;
+}
+
+
 
 
 
@@ -97,10 +112,7 @@ header > h1 > a
     color: black
 }
 
-nav > label,nav > input
-{
-    display: none;
-}
+
 
 aside *
 {
