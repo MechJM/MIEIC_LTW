@@ -3,6 +3,77 @@ body > header
     background-color: #046dd5;
 }
 
+nav li:nth-child(1)
+{
+    border-top: 0.3em solid #E1493E;
+}
+
+nav li:nth-child(2)
+{
+    border-top: 0.3em solid #8ABA56;
+}
+
+nav li:nth-child(3)
+{
+    border-top: 0.3em solid #5B4282;
+}
+
+nav li:nth-child(4)
+{
+    border-top: 0.3em solid #FF8932;
+}
+
+nav li:nth-child(5)
+{
+    border-top: 0.3em solid #19B6E9;
+}
+nav li:nth-child(6)
+{
+    border-top: 0.3em solid #E84C8B;
+}
+
+*
+{
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+p
+{
+    font-family: Georgia;
+}
+
+.comments:after
+{
+    content: ' comments';
+}
+
+footer
+{
+    background-color: #f4655f;
+    color: #ffffff
+}
+
+.author:before
+{
+    content: 'By '
+}
+
+body > footer
+{
+    background-color: #2A2F33;
+    
+}
+
+#menu
+{
+    text-align: center;
+}
+
+
+
+/* Needs to be reworked
+
 body > header > h1 > a
 {
     color: #ffffff
@@ -13,40 +84,7 @@ nav a
     color: #000000;
 }
 
-#menu
-{
-    text-align: center;
-}
 
-li:nth-child(1) > a
-{
-    text-decoration-color:#E1493E;
-}
-
-li:nth-child(2) > a
-{
-    text-decoration-color:#8ABA56;
-}
-
-li:nth-child(3) > a
-{
-    text-decoration-color:#5B4282;
-}
-
-li:nth-child(4) > a
-{
-    text-decoration-color:#FF8932;
-}
-
-li:nth-child(5) > a
-{
-    text-decoration-color:#19B6E9;
-}
-
-li:nth-child(6) > a
-{
-    text-decoration-color:#E84C8B;
-}
 
 header *
 {
@@ -64,21 +102,6 @@ nav > label,nav > input
     display: none;
 }
 
-*
-{
-    font-family: Verdana;
-}
-
-p
-{
-    font-family: Georgia;
-}
-
-.author:before
-{
-    content: 'By '
-}
-
 aside *
 {
     text-decoration: none;
@@ -90,27 +113,15 @@ aside
     background-color: #2A2F33;
 }
 
-li > a
+nav a
 {
-    text-decoration: overline;
+    text-decoration: none;
 }
 
 footer *
 {
     color: #ffffff;
-}
+}*/
 
-.comments:after
-{
-    content: ' comments';
-}
 
-footer
-{
-    background-color: #f4655f;
-}
 
-body > footer
-{
-    background-color: #2A2F33;
-}
