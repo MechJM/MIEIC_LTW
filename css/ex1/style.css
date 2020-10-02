@@ -1,0 +1,62 @@
+body > header
+{
+    background-color: #046dd5;
+}
+
+nav a
+{
+    color: #000000;
+}
+
+#menu
+{
+    width: 25%;
+    margin: auto;
+}
+
+header *
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav > label,nav > input
+{
+    display: none;
+}
+
+aside *
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+aside
+{
+    background-color: #2A2F33;
+}
+
+li > a
+{
+    text-decoration: overline;
+}
+
+footer *
+{
+    color: #ffffff;
+}
+
+.comments:after
+{
+    content: ' comments';
+}
+
+footer
+{
+    background-color: #f4655f;
+}
+
+body > footer
+{
+    background-color: #2A2F33;
+}
