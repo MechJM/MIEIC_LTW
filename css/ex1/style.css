@@ -3,6 +3,11 @@ body > header
     background-color: #046dd5;
 }
 
+body > header > h1 > a
+{
+    color: #ffffff
+}
+
 nav a
 {
     color: #000000;
@@ -10,8 +15,37 @@ nav a
 
 #menu
 {
-    width: 25%;
-    margin: auto;
+    text-align: center;
+}
+
+li:nth-child(1) > a
+{
+    text-decoration-color:#E1493E;
+}
+
+li:nth-child(2) > a
+{
+    text-decoration-color:#8ABA56;
+}
+
+li:nth-child(3) > a
+{
+    text-decoration-color:#5B4282;
+}
+
+li:nth-child(4) > a
+{
+    text-decoration-color:#FF8932;
+}
+
+li:nth-child(5) > a
+{
+    text-decoration-color:#19B6E9;
+}
+
+li:nth-child(6) > a
+{
+    text-decoration-color:#E84C8B;
 }
 
 header *
@@ -20,9 +54,29 @@ header *
     color: #ffffff;
 }
 
+header > h1 > a
+{
+    color: black
+}
+
 nav > label,nav > input
 {
     display: none;
+}
+
+*
+{
+    font-family: Verdana;
+}
+
+p
+{
+    font-family: Georgia;
+}
+
+.author:before
+{
+    content: 'By '
 }
 
 aside *
