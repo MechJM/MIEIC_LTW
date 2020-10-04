@@ -1,6 +1,7 @@
 body > header
 {
     background-color: #046dd5;
+    font-size: 0.8em;
 }
 
 nav li:nth-child(1)
@@ -58,12 +59,12 @@ footer
     content: 'By '
 }
 
-body > footer
+body > footer, aside
 {
     background-color: #2A2F33;
 }
 
-footer *, body > header *
+footer *, body > header *, aside *
 {
     color: #ffffff
 }
@@ -73,9 +74,9 @@ footer *, body > header *
     text-align: center;
 }
 
-article > header > h1 > a,article > h1 > a, nav a
+article > header > h1 > a, nav a
 {
-    color: #000000
+    color: #000000;
 }
 
 nav > label,nav > input
@@ -83,57 +84,7 @@ nav > label,nav > input
     display: none;
 }
 
-
-
-
-
-/* Needs to be reworked
-
-body > header > h1 > a
+.tags
 {
-    color: #ffffff
+    text-decoration: underline;
 }
-
-nav a
-{
-    color: #000000;
-}
-
-
-
-header *
-{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-header > h1 > a
-{
-    color: black
-}
-
-
-
-aside *
-{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-aside
-{
-    background-color: #2A2F33;
-}
-
-nav a
-{
-    text-decoration: none;
-}
-
-footer *
-{
-    color: #ffffff;
-}*/
-
-
-
