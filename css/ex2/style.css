@@ -67,7 +67,8 @@ body
 .news-item > img
 {
     float: right;
-    margin-left: 0.3em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .news-item > ul
