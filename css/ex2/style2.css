@@ -1,0 +1,108 @@
+html
+{ 
+    background-image: url("stripe.png");
+}
+
+body
+{
+    background-color: #ffffff;
+    width: 95%;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#header
+{
+    background-color: black;
+    color: white;
+    padding: 0.7em 0.7em;
+    padding-left: 1em;
+}
+
+#header > h1
+{
+    margin-bottom: 0;
+    margin-top: 0.2em;
+}
+
+#header > h2
+{
+    margin-top: 0;
+    font-size: small;
+}
+
+#menu > ul
+{
+    background-color: #323232;
+    margin-top: 0;
+    padding: 0.5em;
+}
+
+#menu li,.news-item li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#menu li > a
+{
+    text-decoration: none;
+    color: black;
+    margin: 0.5em;
+    padding: 0.2em 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: white;
+    font-size: smaller;
+
+}
+
+.news-item
+{
+    margin-right: 7em;
+    margin-left: 1em;
+}
+
+.news-item > img
+{
+    float: right;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.news-item > ul
+{
+    background-color: #323232;
+    padding: 0.2em;
+}
+
+.news-item > ul > li > a
+{
+    text-decoration: none;
+    color: white;
+    margin: 0.5em;
+    font-size: smaller;
+}
+
+.news-item > p a
+{
+    text-decoration: none;
+    color: brown
+}
+
+.introduction
+{
+    font-style: italic;
+}
+
+.introduction~p
+{
+    margin-top: 1em;
+}
+
+#footer
+{
+    text-align: right;
+    margin-right: 8em;
+}

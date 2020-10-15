@@ -1,108 +1,62 @@
 html
-{ 
-    background-image: url("stripe.png");
-}
-
-body
 {
-    background-color: #ffffff;
-    width: 95%;
+    width: 90%;
     margin-left: auto;
-    margin-right: 0;
-    margin-top: 0;
+    margin-right: auto;
+    background-color: #ead6ea;
 }
 
 #header
 {
-    background-color: black;
     color: white;
-    padding: 0.7em 0.7em;
-    padding-left: 1em;
+    background-color:#1A5FAE;
 }
 
 #header > h1
 {
-    margin-bottom: 0;
-    margin-top: 0.2em;
+    margin: 0;
+    padding: 2em;
 }
 
 #header > h2
 {
-    margin-top: 0;
-    font-size: small;
+    transform: rotate(90deg);
+    background-color: #1A5FAE;
+    float: left;
+    position: relative;
+    left: -17em;
+    bottom: -10em;
+    padding: 0.3em 12em 0.3em 12em;
+    margin: 0;
 }
 
 #menu > ul
 {
-    background-color: #323232;
-    margin-top: 0;
-    padding: 0.5em;
+    background-color: #00b400;
+    width: 20%;
+    height: 110em;
+    float: right;
 }
 
-#menu li,.news-item li
+#menu > ul > li
 {
     list-style-type: none;
-    display: inline;
+    margin: 2em;
 }
 
-#menu li > a
+#menu > ul > li > a
 {
     text-decoration: none;
-    color: black;
-    margin: 0.5em;
-    padding: 0.2em 0.2em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    background-color: white;
-    font-size: smaller;
-
+    color:white
 }
 
-.news-item
+#menu ~ div
 {
-    margin-right: 7em;
-    margin-left: 1em;
+    background-color: white;
+    width: 70%;
 }
 
 .news-item > img
 {
-    float: right;
-    margin-left: 0.5em;
-    margin-bottom: 0.5em;
-}
-
-.news-item > ul
-{
-    background-color: #323232;
-    padding: 0.2em;
-}
-
-.news-item > ul > li > a
-{
-    text-decoration: none;
-    color: white;
-    margin: 0.5em;
-    font-size: smaller;
-}
-
-.news-item > p a
-{
-    text-decoration: none;
-    color: brown
-}
-
-.introduction
-{
-    font-style: italic;
-}
-
-.introduction~p
-{
-    margin-top: 1em;
-}
-
-#footer
-{
-    text-align: right;
-    margin-right: 8em;
+    float: left;
 }

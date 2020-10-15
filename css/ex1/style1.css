@@ -1,0 +1,96 @@
+*
+{
+    padding: 1em;
+    margin: 1em;
+}
+
+body > header
+{
+    background-color: #046dd5;
+    font-size: 0.8em;
+}
+
+nav li:nth-child(1)
+{
+    border-top: 0.35em solid #E1493E;
+}
+
+nav li:nth-child(2)
+{
+    border-top: 0.35em solid #8ABA56;
+}
+
+nav li:nth-child(3)
+{
+    border-top: 0.35em solid #5B4282;
+}
+
+nav li:nth-child(4)
+{
+    border-top: 0.35em solid #FF8932;
+}
+
+nav li:nth-child(5)
+{
+    border-top: 0.35em solid #19B6E9;
+}
+nav li:nth-child(6)
+{
+    border-top: 0.35em solid #E84C8B;
+}
+
+*
+{
+    font-family: Verdana;
+    text-decoration: none;
+}
+
+p
+{
+    font-family: Georgia;
+}
+
+.comments:after
+{
+    content: ' comments';
+}
+
+footer
+{
+    background-color: #f4655f;
+}
+
+.author:before
+{
+    content: 'By '
+}
+
+body > footer, aside
+{
+    background-color: #2A2F33;
+}
+
+footer *, body > header *, aside *
+{
+    color: #ffffff
+}
+
+#menu
+{
+    text-align: center;
+}
+
+article > header > h1 > a, nav a
+{
+    color: #000000;
+}
+
+nav > label,nav > input
+{
+    display: none;
+}
+
+.tags
+{
+    text-decoration: underline;
+}

@@ -1,96 +1,138 @@
-*
+nav > input,nav > label
 {
-    padding: 1em;
-    margin: 1em;
+    visibility: hidden;
 }
 
 body > header
 {
-    background-color: #046dd5;
-    font-size: 0.8em;
+    background-color:#046DD5;
+    padding: 1em;
+    font-family: Verdana;
 }
 
-nav li:nth-child(1)
+#signup > a:first-child
 {
-    border-top: 0.35em solid #E1493E;
+    border-right: 0.1em solid white ;
 }
 
-nav li:nth-child(2)
+body > header a
 {
-    border-top: 0.35em solid #8ABA56;
+    color: white;
+    text-decoration: none;
+    padding: 0 1em 0 1em;
 }
 
-nav li:nth-child(3)
+aside#related
 {
-    border-top: 0.35em solid #5B4282;
+    background-color: #2A2F33;
+    color:white;
 }
 
-nav li:nth-child(4)
+aside#related > article > h1 > a
 {
-    border-top: 0.35em solid #FF8932;
+    text-decoration: none;
+    color: white;
 }
 
-nav li:nth-child(5)
+#menu > ul > li
 {
-    border-top: 0.35em solid #19B6E9;
-}
-nav li:nth-child(6)
-{
-    border-top: 0.35em solid #E84C8B;
+    list-style-type: none;
+    text-align: center;
 }
 
-*
+#menu > ul > li > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#menu > ul > li:nth-child(1)
+{
+    border-top: 0.2em solid #E1493E;
+}
+
+#menu > ul > li:nth-child(2)
+{
+    border-top: 0.2em solid #8ABA56;
+}
+
+#menu > ul > li:nth-child(3)
+{
+    border-top: 0.2em solid #5B4282;
+}
+
+#menu > ul > li:nth-child(4)
+{
+    border-top: 0.2em solid #FF8932;
+}
+
+#menu > ul > li:nth-child(5)
+{
+    border-top: 0.2em solid #19B6E9;
+}
+
+#menu > ul > li:nth-child(6)
+{
+    border-top: 0.2em solid #E84C8B;
+}
+
+article > footer
+{
+    background-color: #F4655F;
+    color: white;
+    padding: 1em;
+}
+
+footer a
+{
+    color: white;
+}
+
+.author::before
+{
+    content: "By ";
+}
+
+.comments::after
+{
+    content: " comments";
+}
+
+article > h1 > a
 {
     font-family: Verdana;
-    text-decoration: none;
 }
 
-p
+article > p
 {
     font-family: Georgia;
 }
 
-.comments:after
+article > p::first-letter
 {
-    content: ' comments';
+    font-size: 200%;
 }
 
-footer
+#news > article > header > h1 > a
 {
-    background-color: #f4655f;
+    text-decoration: none;
+    color:white;
+    position: absolute;
+    left: 1em;
+    text-shadow: 4px 4px 4px black;
+    font-family: Verdana;
 }
 
-.author:before
-{
-    content: 'By '
-}
-
-body > footer, aside
+body > footer
 {
     background-color: #2A2F33;
+    color: white;
+    padding: 0.2em;
+    margin-top: 0.5em;
 }
 
-footer *, body > header *, aside *
+img
 {
-    color: #ffffff
-}
-
-#menu
-{
-    text-align: center;
-}
-
-article > header > h1 > a, nav a
-{
-    color: #000000;
-}
-
-nav > label,nav > input
-{
-    display: none;
-}
-
-.tags
-{
-    text-decoration: underline;
+    width: 100%;
+    height: 100%;
 }
