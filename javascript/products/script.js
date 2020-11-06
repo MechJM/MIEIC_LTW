@@ -1,13 +1,12 @@
 "use strict";
 
-let form = document.getElementsByTagName("form");
+let form = document.getElementsByTagName("form")[0];
+form.addEventListener("submit",function(event){
+    alert("Submitted!");
+    event.preventDefault();
+});
 
-console.log(form);
-
-for (let formElem of form)
-{
-    console.log(formElem.outerHTML);
-}
+console.log(form.outerHTML);
 
 let secondInput = document.querySelector("label:nth-child(2) > input");
 
