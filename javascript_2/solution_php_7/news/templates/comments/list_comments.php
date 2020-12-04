@@ -1,3 +1,4 @@
+<script src="../../script.js" defer></script>
 <section id="comments">
   <h1><?=count($comments)?> Comment<?=count($comments)==1?'':'s'?></h1>
   <?php foreach ($comments as $comment) { ?>
