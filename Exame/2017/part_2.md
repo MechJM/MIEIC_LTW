@@ -36,6 +36,12 @@ f) Washing the **washing machine while watching the washing machine washing wa**
 
 ### 3.
 
-[a)](./part_2_ex3.js)
+[a)](./part_2_ex3_a.js)
+[b)](./part_2_ex3_b.js)
 
-b)
+### 4.
+
+a) //book/text()
+b) //book[@year > 1900]/text()
+c) //author[@country = "England"]/book/@year
+d) //author[./book[@type = "Novel"]]/@name
