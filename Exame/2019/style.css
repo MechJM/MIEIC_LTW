@@ -1,0 +1,6 @@
+.bar li { color: green } 
+section :first-of-type .second { color: yellow } 
+section#foo {color: blue } 
+section[id=foo] > * {color: purple } 
+.bar li.first:first-child + li { color: inherit }  
+#foo > li.first:first-child ~ li { color: magenta}  
