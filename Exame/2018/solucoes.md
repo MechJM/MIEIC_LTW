@@ -26,4 +26,7 @@
 ### 26. See [here](ex26.js)
 ### 27. See [here](ex27.js)
 ### 28. See [here](ex28.js)
-### 29. 
+### 29. //recipe/name/text()
+### 30. //recipe[./@difficulty="medium"]/name/text()
+### 31. //recipe[./description]/@difficulty
+### 32. //recipe[count(./ingredients/ingredient)>3]/name/text()
