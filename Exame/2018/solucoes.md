@@ -23,3 +23,7 @@
 ### 23. How many cookies could a good cook cook If a good cook could cook [cookies]
 ### 24. How many cookies could a goo[d] cook cook If a good cook could cook cookies
 ### 25. How many [cookies could a good cook] cook If a good cook could cook cookies
+### 26. See [here](ex26.js)
+### 27. See [here](ex27.js)
+### 28. See [here](ex28.js)
+### 29. 
